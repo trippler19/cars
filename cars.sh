@@ -19,7 +19,7 @@ do
 		read carMake
 		echo "What is the model of the car?"
 		read carModel
-		carName=$carYear":"$carMake":"$carModel
+		carName=$carYear" "$carMake" "$carModel
 		echo $carName >> "My_old_cars.txt"
 		;;
 	"2")
